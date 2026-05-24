@@ -2,6 +2,11 @@
 
 `autoknow` is a **fully autonomous, open-source CLI tool** that turns any codebase into a **queryable knowledge graph** for AI agents. Designed for **Claude Code, Codex, Cursor, Copilot, and Hermes Agent**, it reduces token usage and improves context awareness by pre-processing code into a structured format.
 
+## Note
+This repository was published under `fairyfemirins` due to GitHub namespace restrictions. A transfer to `femirins` is pending.
+
+To request a transfer, open an issue in this repository or contact `@femirins` on GitHub.
+
 ## Features
 - **Autonomous Indexing**: Scans local directories and builds a knowledge graph.
 - **Query Interface**: Search for functions, classes, and dependencies.
@@ -11,7 +16,9 @@
 
 ## Installation
 ```bash
-pip install autoknow
+git clone https://github.com/fairyfemirins/autoknow.git
+cd autoknow
+pip install -e .
 ```
 
 ## Usage
